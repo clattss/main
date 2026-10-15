@@ -1,0 +1,24 @@
+# 本地暂存/回收站(排查脚本、被替换的旧版本)
+.trash/
+
+# 从市场安装的 skills(约 1.3 万个模板文件,可由市场重新获取)
+.agents/
+
+# 依赖与缓存
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 系统/编辑器杂项
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# 日志与临时文件
+*.log
+*.tmp
